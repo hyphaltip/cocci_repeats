@@ -6,6 +6,7 @@ tbl$V9 <- (10^9 * tbl$V7) / (43323438 * len)
 tbl$V10 <- (10^9 * tbl$V8) / (36703973 * len)
 # feature length
 tbl$V11 <- len
+tbl<-subset(tbl,tbl$V11 > 10)
 colnames(tbl) <- c("Scaffold","ChrStart","ChrEnd","TE_name_instance","RepeatMasker Score","Strand","Hyphae Expression", "Spherule Expression","Hyphae Expression (FPKM)","Spherule Expression (FPKM)","Feature Length (bp)")
 
 write.csv(tbl,file="Cimmitis_RS_Genome.rpt.bedtools.csv")
