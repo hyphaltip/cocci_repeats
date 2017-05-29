@@ -1,0 +1,51 @@
+==================================================
+file name: Cpos_C735.fa             
+sequences:            55
+total length:   27013412 bp  (27013412 bp excl N/X-runs)
+GC level:         46.59 %
+bases masked:    3990942 bp ( 14.77 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+SINEs:                0            0 bp    0.00 %
+      ALUs            0            0 bp    0.00 %
+      MIRs            0            0 bp    0.00 %
+
+LINEs:              215       281484 bp    1.04 %
+      LINE1           3         5655 bp    0.02 %
+      LINE2           0            0 bp    0.00 %
+      L3/CR1          0            0 bp    0.00 %
+
+LTR elements:      1166      2297574 bp    8.51 %
+      ERVL            0            0 bp    0.00 %
+      ERVL-MaLRs      0            0 bp    0.00 %
+      ERV_classI      0            0 bp    0.00 %
+      ERV_classII     0            0 bp    0.00 %
+
+DNA elements:       668       703801 bp    2.61 %
+     hAT-Charlie      0            0 bp    0.00 %
+     TcMar-Tigger     0            0 bp    0.00 %
+
+Unclassified:       411       381954 bp    1.41 %
+
+Total interspersed repeats:  3664813 bp   13.57 %
+
+
+Small RNA:           18        24854 bp    0.09 %
+
+Satellites:           0            0 bp    0.00 %
+Simple repeats:    6782       251909 bp    0.93 %
+Low complexity:    1308        66833 bp    0.25 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+                                                      
+
+The query species was assumed to be homo          
+RepeatMasker Combined Database: Dfam_Consensus-20170127, RepBase-20170127
+        
+run with rmblastn version 2.6.0+
+The query was compared to classified sequences in "Cpos_C735_refTEs.fa.classified"
+
